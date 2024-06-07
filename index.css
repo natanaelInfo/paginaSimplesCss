@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-style:'Segoe UI', Tahoma, Verdana, sans-serif;
+    
+}
+header{
+    background-color: #225470; 
+}
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    
+    padding: 180px 0;
+   
+}
+
+main > h1{
+  font-size:3em ;
+  line-height: 3em;
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+main > p{
+    color: aliceblue;
+    max-width: 1000px;
+    text-align: center;
+    font-size: 1.2em;
+    margin:0 auto;
+    font-weight: bold;
+}
+
+main a{
+
+  
+    display: block; 
+    width: 20%; /* tamanho do link */ 
+    margin: 40px auto 10px auto; 
+    background-color:#00BFFF; 
+    padding: 15px; 
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+
+}
+header hr{
+    position: absolute;
+    border: 2px solid  #E0FFFF;
+    width: 99.7%;
+    bottom: 20px;
+    z-index: 1;
+ 
+
+}
+/*SECTION 1*/
+
+.sectionA{
+    background-color: white;
+}
+
+.sectionB{
+    background-color: #222222;
+}
+.containerSection{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.containerSection h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #222222;
+    text-align: center;
+    font-size: 1.8em;
+    text-transform: capitalize;
+}
+
+.containerSection p{
+    line-height: 1.2em;
+    color: #222222;
+    text-align:center;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.sectionB h3, p{
+    color: white;
+    font-size: 1.8em;
+}
+
+.sectionB p{
+    color: white;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    font-size: 1.2em;
+}
+/*estilizar o contatainer b*/
